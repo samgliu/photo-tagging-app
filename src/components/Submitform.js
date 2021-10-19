@@ -1,23 +1,9 @@
-import React, { useState } from 'react';
-import FireBase from './Firebase';
-import firebase from 'firebase/compat/app';
+import React from 'react';
 import 'firebase/compat/firestore';
 
 function Rank(props) {
-    const {
-        isSubmitOpen,
-        setIsSubmitOpen,
-        score,
-        setScoreName,
-        time,
-        setTime,
-    } = props;
+    const { isSubmitOpen, setIsSubmitOpen, score, setScoreName } = props;
     let inputname = '';
-
-    const getTime = async () => {
-        var timestamp = firebase.firestore.Timestamp;
-        return timestamp.now().seconds;
-    };
 
     async function onSubmitClick(e) {
         e.preventDefault();

@@ -13,8 +13,7 @@ function Canvas(props) {
     const [scale, setScale] = useState(1.0);
     const [alert, setAlert] = useState(false);
     const [popupmsg, setPopupmsg] = useState(' ');
-    const { marks, setMarks, isSubmitOpen, isRankOpen, time, setScore, score } =
-        props;
+    const { marks, setMarks, isSubmitOpen, isRankOpen, time, setScore } = props;
 
     async function checkWin(themarks) {
         if (themarks[0] === 1 && themarks[1] === 1 && themarks[2] === 1) {
@@ -144,13 +143,6 @@ function Canvas(props) {
 
     const verifyPos = async (x, y, index) => {
         let rightpos = await getPos();
-        /*
-        let rightpos = [
-            // original : 440, 1308
-            { x: 312, y: 918 }, //  Pikachu
-            { x: 176, y: 254 }, // kero
-            { x: 221, y: 574 }, // umbrella
-        ];*/
         let pos = rightpos[convertInd(index)];
         let offset = 20;
         return (
