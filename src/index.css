@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.App {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2b2b;
+    color: white;
+    height: 100px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    font-size: 2em;
+    min-width: 440px;
+}
+
+.scoreboard {
+    display: flex;
+}
+
+.scoreimgcontainer {
+    margin: 20px 100px 0 100px;
+    display: flex;
+}
+
+.scoreimg {
+    width: 40px;
+    margin: 0 20px 0 20px;
+    border: #fefefe;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50%;
+}
+.scoreimgred {
+    border: 2px solid #e71426;
+}
+
+.scoreboard button {
+    background-color: #3d3d3d;
+    color: white;
+    border: 2px solid #5f5f5c;
+    width: 70px;
+    font-size: 0.5em;
+    margin: 2px;
+}
+
+.canvas img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    width: 100%;
+    min-width: 440px;
+}
+
+.dropmenu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #2c2b2b;
+    width: 70px;
+}
+.dropmenuhidden {
+    display: none;
+}
+.dropbtn {
+    background-color: #2c2b2b;
+    color: white;
+    border: none;
+    width: 70px;
+    border: 1px solid white;
+}
+
+.dropbtnclose {
+    background-color: #c41e1e;
+}
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fefefe;
+    border-radius: 100%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: all 150ms ease;
+    transition-property: background-color, opacity, transform, mix-blend-mode;
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+
+.cursor--hidden {
+    opacity: 0;
+}
+
+.cursor--clicked {
+    transform: translate(-50%, -50%) scale(0.9);
+    background-color: #fefefe;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Popup style */
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 200px;
+    height: 30px;
+    top: 120px;
+    left: 40%;
+}
+
+.box {
+    height: 100%;
+    background: #383838;
+    border-radius: 4px;
+    border: 1px solid #999;
+    color: white;
+    overflow: hidden;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+.rank {
+    border: 3px solid #fcfcfc;
+    border-radius: 5px;
+    color: white;
+    width: 35%;
+    height: 100%;
+    min-width: 230px;
+    max-width: 400px;
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.6);
+    padding: 1%;
+    background-color: #1e1f1f;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+}
+.submitform {
+    border: 3px solid #fcfcfc;
+    border-radius: 5px;
+    color: white;
+    width: 35%;
+    height: 12%;
+    min-width: 230px;
+    max-width: 400px;
+    box-shadow: 0 0 0 99999px rgba(0, 0, 0, 0.6);
+    padding: 1%;
+    background-color: #1e1f1f;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+}
+
+.submitbtn {
+    border-color: #3498db;
+    color: #ffffff;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    padding: 3px;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.submitbtn:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: #3498db;
+}
+.closebtn {
+    border-color: #e71426;
+    color: #ffffff;
+    width: 250px;
+    margin: 10px 10px 10px 10px;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0 0 40px 40px #e71426 inset, 0 0 0 0 #e71426;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+.closebtn:hover {
+    box-shadow: 0 0 10px 0 #e71426 inset, 0 0 10px 4px #e71426;
+    color: #e71426;
+}
