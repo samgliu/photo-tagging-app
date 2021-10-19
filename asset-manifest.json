@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/samgliu/photo-tagging-app/static/css/main.033780c6.chunk.css",
-    "main.js": "/samgliu/photo-tagging-app/static/js/main.53a365ad.chunk.js",
-    "main.js.map": "/samgliu/photo-tagging-app/static/js/main.53a365ad.chunk.js.map",
-    "runtime-main.js": "/samgliu/photo-tagging-app/static/js/runtime-main.b0cd07cf.js",
-    "runtime-main.js.map": "/samgliu/photo-tagging-app/static/js/runtime-main.b0cd07cf.js.map",
-    "static/js/2.eead7dc8.chunk.js": "/samgliu/photo-tagging-app/static/js/2.eead7dc8.chunk.js",
-    "static/js/2.eead7dc8.chunk.js.map": "/samgliu/photo-tagging-app/static/js/2.eead7dc8.chunk.js.map",
-    "index.html": "/samgliu/photo-tagging-app/index.html",
-    "static/css/main.033780c6.chunk.css.map": "/samgliu/photo-tagging-app/static/css/main.033780c6.chunk.css.map",
-    "static/js/2.eead7dc8.chunk.js.LICENSE.txt": "/samgliu/photo-tagging-app/static/js/2.eead7dc8.chunk.js.LICENSE.txt",
-    "static/media/pic1.165c0fea.jpg": "/samgliu/photo-tagging-app/static/media/pic1.165c0fea.jpg"
+    "main.css": "/photo-tagging-app/static/css/main.033780c6.chunk.css",
+    "main.js": "/photo-tagging-app/static/js/main.53a365ad.chunk.js",
+    "main.js.map": "/photo-tagging-app/static/js/main.53a365ad.chunk.js.map",
+    "runtime-main.js": "/photo-tagging-app/static/js/runtime-main.0d25db9d.js",
+    "runtime-main.js.map": "/photo-tagging-app/static/js/runtime-main.0d25db9d.js.map",
+    "static/js/2.53cdd7f9.chunk.js": "/photo-tagging-app/static/js/2.53cdd7f9.chunk.js",
+    "static/js/2.53cdd7f9.chunk.js.map": "/photo-tagging-app/static/js/2.53cdd7f9.chunk.js.map",
+    "index.html": "/photo-tagging-app/index.html",
+    "static/css/main.033780c6.chunk.css.map": "/photo-tagging-app/static/css/main.033780c6.chunk.css.map",
+    "static/js/2.53cdd7f9.chunk.js.LICENSE.txt": "/photo-tagging-app/static/js/2.53cdd7f9.chunk.js.LICENSE.txt",
+    "static/media/pic1.165c0fea.jpg": "/photo-tagging-app/static/media/pic1.165c0fea.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b0cd07cf.js",
-    "static/js/2.eead7dc8.chunk.js",
+    "static/js/runtime-main.0d25db9d.js",
+    "static/js/2.53cdd7f9.chunk.js",
     "static/css/main.033780c6.chunk.css",
     "static/js/main.53a365ad.chunk.js"
   ]
