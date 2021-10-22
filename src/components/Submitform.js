@@ -7,6 +7,7 @@ function Rank(props) {
 
     async function onSubmitClick(e) {
         e.preventDefault();
+        e.currentTarget.disabled = true;
         if (inputname !== '') {
             setScoreName(inputname);
         }
