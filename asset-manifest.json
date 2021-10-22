@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/photo-tagging-app/static/css/main.033780c6.chunk.css",
-    "main.js": "/photo-tagging-app/static/js/main.a7c3e851.chunk.js",
-    "main.js.map": "/photo-tagging-app/static/js/main.a7c3e851.chunk.js.map",
+    "main.js": "/photo-tagging-app/static/js/main.ce7a90e6.chunk.js",
+    "main.js.map": "/photo-tagging-app/static/js/main.ce7a90e6.chunk.js.map",
     "runtime-main.js": "/photo-tagging-app/static/js/runtime-main.0d25db9d.js",
     "runtime-main.js.map": "/photo-tagging-app/static/js/runtime-main.0d25db9d.js.map",
     "static/js/2.310fb395.chunk.js": "/photo-tagging-app/static/js/2.310fb395.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.0d25db9d.js",
     "static/js/2.310fb395.chunk.js",
     "static/css/main.033780c6.chunk.css",
-    "static/js/main.a7c3e851.chunk.js"
+    "static/js/main.ce7a90e6.chunk.js"
   ]
 }
