@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
+import FireBase from './Firebase';
+import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import RankItem from './RankItem';
 
 function Rank(props) {
     const { isRankOpen, setIsRankOpen, arr } = props;
+    const getTime = async () => {
+        var timestamp = firebase.firestore.Timestamp;
+        return timestamp.now();
+    };
 
     function onCloseClick(e) {
         e.preventDefault();
